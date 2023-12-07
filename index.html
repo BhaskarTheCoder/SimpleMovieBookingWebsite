@@ -1,6 +1,3 @@
-Certainly! To address the low contrast errors, you can modify the color of the text in the `header` and `footer` elements to improve readability. Here's the corrected code:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,9 +65,14 @@ Certainly! To address the low contrast errors, you can modify the color of the t
             cursor: pointer;
         }
 
+        .booking-button:hover {
+            /* Add a hover effect to improve user interaction */
+            background-color: #0056b3;
+        }
+
         footer {
             background-color: #333;
-            color: white; /* Changed text color to white for better contrast */
+            color: white;
             padding: 10px;
             text-align: center;
         }
@@ -123,6 +125,3 @@ Certainly! To address the low contrast errors, you can modify the color of the t
     </script>
 </body>
 </html>
-```
-
-In this code, I changed the text color in the `footer` to white for better contrast against the dark background. This should address the low contrast errors reported by the WAVE tool.
